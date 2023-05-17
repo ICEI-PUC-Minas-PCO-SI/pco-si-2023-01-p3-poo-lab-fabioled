@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 Console.WriteLine("Atividade Base!");
 
-Questao2.Executar();
+Questao1.Executar();

@@ -6,7 +6,7 @@ public class ProcessoSincrono
         Console.WriteLine("Realizando operação assíncrona...");
 
         // Simulação de uma operação demorada
-        System.Threading.Thread.Sleep(3000);
+        System.Threading.Thread.Sleep(10000);
         int resultado = valor * 10;
         callback(resultado); // Chama a função de callback com o resultado
     }

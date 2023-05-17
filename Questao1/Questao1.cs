@@ -1,11 +1,11 @@
 class Questao1
 {
-    delegate int CalcularDelegate(int a, int b);
+    
     public static void Executar(){
         Console.WriteLine("Atividade 1 -----------: ");
 
         // Cria uma instância do delegate CalcularDelegate
-        CalcularDelegate calcular;
+        CalcDelegates.CalcularDelegate  calcular;
 
         // Atribui o método Soma ao delegate
         calcular = Calculadora.Soma;
