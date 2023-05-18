@@ -19,7 +19,7 @@ public class Questao3
     }
     public static void Executar()
     {
-        Console.WriteLine("Aninhamento de Delegates");
+        Console.WriteLine("Estruturas Homogeneas com Delegates");
 
         List<Operacacoes> listaOperacoes = new List<Operacacoes>();
 

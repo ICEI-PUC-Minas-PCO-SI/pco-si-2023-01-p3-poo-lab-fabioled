@@ -1,9 +1,9 @@
 public class Questao5
 {
     public delegate double Operacacoes(double a, double b);
-    public delegate double RegistroOperacao(double resultado);
+    //public delegate double RegistroOperacao(double resultado);
     //public static event RegistroOperacao OcorrenciaDaOperacao;
-    public static event Action<double> OcorrenciaDaOperacao;
+    public static event Action<double> ?OcorrenciaDaOperacao;
     public static double Somar(double a, double b)
     {
         double resultado;
@@ -38,7 +38,7 @@ public class Questao5
             return resultado;
         };
 
-        operacacoes(3, 5);
+        operacacoes(10, 5);
     }
     public static void MostrarResultado(double resultado)
     {
